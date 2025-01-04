@@ -4,20 +4,29 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(44, 41, 58);
+    background: linear-gradient(90deg, #000000, #003366, #000000, #003366);
+    background-size: 200% 200%;
+    animation: waveAnimation 5s ease-in-out infinite;
     font-family: Arial, sans-serif;
     color: #ffffff;
     flex-direction: column;
     position: relative;
+    overflow-x: hidden;
+}
+
+@keyframes waveAnimation {
+    0% { background-position: 0% 0%; }
+    50% { background-position: 100% 100%; }
+    100% { background-position: 0% 0%; }
 }
 
 .ez {
-    font-size: 100px;
+    font-size: 5vw;
     font-family: 'Bangers', sans-serif !important;
     color: white;
-    font-weight: bold ;
+    font-weight: bold;
     margin-bottom: -10px;
-    top:50px;
+    top: 50px;
     position: absolute;
 }
 
@@ -28,6 +37,16 @@ body {
     position: absolute;
 }
 
+button, .faq-link {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:hover, .faq-link:hover {
+    background: linear-gradient(135deg, #0056b3, #003d80);
+}
+
 .eez {
     font-family: 'Bangers', sans-serif !important;
     font-size: 150px;
@@ -36,6 +55,20 @@ body {
     margin-bottom: 20px;
     text-align: center;
     letter-spacing: 3px;
+}
+
+.bot-box, .modal, .item, .info-box {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
+}
+
+button:hover, .faq-link:hover {
+    transform: translateY(-2px);
+    background-color: #004080;
+}
+
+.item:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease;
 }
 
 .bot-box {
@@ -64,7 +97,7 @@ body {
     z-index: 1000;
     text-align: center;
     width: 90%;
-    max-width: 500px;
+    max-width: 400px;
 }
 
 .modal-overlay {
@@ -95,7 +128,7 @@ button:hover {
 
 .item-name {
     margin-top: 10px;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bold;
 }
 
@@ -105,7 +138,7 @@ button:hover {
 }
 
 .search-box input {
-    width: 80%;
+    width: 100%;
     padding: 8px;
     font-size: 16px;
     border: 1px solid #555;
@@ -124,7 +157,7 @@ button:hover {
 }
 
 .item {
-    width: 150px;
+    width: 100px;
     height: 150px;
     border: 1px solid #555;
     border-radius: 5px;
@@ -134,6 +167,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     background-color: #3c3c3c;
+    overflow: hidden;
 }
 
 .item:hover {
@@ -216,4 +250,46 @@ button:hover {
 
 .faq-link:hover {
     background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .ez {
+        font-size: 8vw;
+    }
+
+    .bot-box {
+        width: 90%;
+    }
+
+    .item {
+        width: 80px;
+        height: 80px;
+        font-size: 10px;
+    }
+
+    .faq-link {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .ez {
+        font-size: 10vw;
+    }
+
+    .search-box input {
+        font-size: 14px;
+    }
+
+    .item {
+        width: 70px;
+        height: 70px;
+        font-size: 10px;
+    }
+
+    .faq-link {
+        font-size: 10px;
+        padding: 6px 12px;
+    }
 }

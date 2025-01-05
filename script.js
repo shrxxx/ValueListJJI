@@ -50,7 +50,7 @@ const items = [
     { name: "Blessed Scarf", value: "500 (5 Sukuna Fingers)", demand: "B" },
     { name: "Perception Blocking Mask", value: "700 (7 Sukuna Fingers)", demand: "B" },
     { name: "Demon Face", value: "300 (3 Sukuna Fingers)", demand: "D" },
-    { name: "Soul Face Stitches", value: "500 (5 Sukuna Fingers)", demand: "F" }
+    { name: "Soul Face Stitches", value: "500 (5 Sukuna Fingers)", demand: "F" },
     { name: "BloodThirsty Hakama", value: "1000 (10 Sukuna Fingers)", demand: "F" }
     
 ];

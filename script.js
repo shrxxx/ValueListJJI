@@ -52,9 +52,7 @@ const items = [
     { name: "Demon Face", value: "300 (3 Sukuna Fingers)", demand: "D" },
     { name: "Soul Face Stitches", value: "500 (5 Sukuna Fingers)", demand: "F" },
     { name: "BloodThirsty Hakama", value: "1000 (10 Sukuna Fingers)", demand: "F" }
-    
 ];
-
 const modal = document.getElementById('itemModal');
 const overlay = document.getElementById('modalOverlay');
 const openModalButton = document.getElementById('openModal');
@@ -110,9 +108,7 @@ function selectItem(item, itemDiv) {
     document.getElementById('itemValue').children[0].textContent = item.value;
     document.getElementById('itemDemand').style.display = 'block';
     document.getElementById('itemDemand').children[0].textContent = item.demand;
-
     modal.style.display = 'none';
     overlay.style.display = 'none';
-
     document.querySelector('.choose-btn').classList.add('shrunk');
 }

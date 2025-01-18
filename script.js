@@ -51,7 +51,7 @@ const items = [
     { name: "Perception Blocking Mask", value: "700 (7 Sukuna Fingers)", demand: "B" },
     { name: "Demon Face", value: "300 (3 Sukuna Fingers)", demand: "D" },
     { name: "Soul Face Stitches", value: "400 (4 Sukuna Fingers)", demand: "F" },
-    { name: "Turbo Mask", value: "6000 (60 Sukuna Fingers)", demand: "SS" },
+    { name: "Turbo Mask", value: "10000 (100 Sukuna Fingers)", demand: "SSS" },
     { name: "BloodThirsty Hakama", value: "1000 (10 Sukuna Fingers)", demand: "F" }
 ];
 const modal = document.getElementById('itemModal');

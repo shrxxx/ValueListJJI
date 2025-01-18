@@ -12,7 +12,7 @@ const items = [
     { name: "Viscera Scythe", value: "500 (5 Sukuna Fingers)", demand: "D" },
     { name: "Electric Staff", value: "900 (9 Sukuna Fingers)", demand: "C" },
     { name: "Heian Gauntlets", value: "6500 (65 Sukuna Fingers)", demand: "SSS" },
-    { name: "Inverted Spear Of Heaven", value: "1500 (15 Sukuna Fingers)", demand: "A" },
+    { name: "Inverted Spear Of Heaven", value: "1800 (18 Sukuna Fingers)", demand: "A+" },
     { name: "Domain Shard", value: "4900 (49 Sukuna Fingers)", demand: "S" },
     { name: "Max Scroll", value: "4800 (48 Sukuna Fingers)", demand: "A++" },
     { name: "Purified Cursed Hand", value: "900 (9 Sukuna Fingers)", demand: "A+" },
@@ -51,6 +51,7 @@ const items = [
     { name: "Perception Blocking Mask", value: "700 (7 Sukuna Fingers)", demand: "B" },
     { name: "Demon Face", value: "300 (3 Sukuna Fingers)", demand: "D" },
     { name: "Soul Face Stitches", value: "400 (4 Sukuna Fingers)", demand: "F" },
+    { name: "Turbo Mask", value: "6000 (60 Sukuna Fingers)", demand: "SS" },
     { name: "BloodThirsty Hakama", value: "1000 (10 Sukuna Fingers)", demand: "F" }
 ];
 const modal = document.getElementById('itemModal');

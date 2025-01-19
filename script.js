@@ -11,7 +11,7 @@ const items = [
     { name: "Feathered Spear", value: "500 (5 Sukuna Fingers)", demand: "D" },
     { name: "Viscera Scythe", value: "500 (5 Sukuna Fingers)", demand: "D" },
     { name: "Electric Staff", value: "900 (9 Sukuna Fingers)", demand: "C" },
-    { name: "Heian Gauntlets", value: "8500 (85 Sukuna Fingers)", demand: "SSS" },
+    { name: "Heian Gauntlets", value: "10000 (100 Sukuna Fingers)", demand: "SSS" },
     { name: "Inverted Spear Of Heaven", value: "1800 (18 Sukuna Fingers)", demand: "A+" },
     { name: "Domain Shard", value: "4900 (49 Sukuna Fingers)", demand: "S" },
     { name: "Max Scroll", value: "4800 (48 Sukuna Fingers)", demand: "A++" },

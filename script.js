@@ -11,12 +11,12 @@ const items = [
     { name: "Feathered Spear", value: "500 (5 Sukuna Fingers)", demand: "D" },
     { name: "Viscera Scythe", value: "500 (5 Sukuna Fingers)", demand: "D" },
     { name: "Electric Staff", value: "900 (9 Sukuna Fingers)", demand: "C" },
-    { name: "Heian Gauntlets", value: "10000 (100 Sukuna Fingers)", demand: "SSS" },
+    { name: "Heian Gauntlets", value: "20000 (200 Sukuna Fingers)", demand: "SSS" },
     { name: "Inverted Spear Of Heaven", value: "1800 (18 Sukuna Fingers)", demand: "A+" },
     { name: "Domain Shard", value: "4900 (49 Sukuna Fingers)", demand: "S" },
     { name: "Max Scroll", value: "4800 (48 Sukuna Fingers)", demand: "A++" },
-    { name: "Purified Cursed Hand", value: "900 (9 Sukuna Fingers)", demand: "A+" },
-    { name: "Energy Nature Scroll", value: "800 (8 Sukuna Fingers)", demand: "A" },
+    { name: "Purified Cursed Hand", value: "1500 (15 Sukuna Fingers)", demand: "A+" },
+    { name: "Energy Nature Scroll", value: "1000 (10 Sukuna Fingers)", demand: "A" },
     { name: "Eyes Of Willpower", value: "2500 (25 Sukuna Fingers)", demand: "S" },
     { name: "Eyes of Insight", value: "1800 (18 Sukuna Fingers)", demand: "A" },
     { name: "Eyes of Bloodthirst", value: "2200 (22 Sukuna Fingers)", demand: "A++" },
@@ -34,7 +34,7 @@ const items = [
     { name: "Soul Stitch Pants", value: "300 (3 Sukuna Fingers)", demand: "D++" },
     { name: "Dark Heian Set", value: "12000 (120 Sukuna Fingers)", demand: "SSS" },
     { name: "Scarf of the Chosen", value: "3500 (35 Sukuna Fingers)", demand: "SSS" },
-    { name: "Enlightenment Beads", value: "6500 (65 Sukuna Fingers)", demand: "SSS" },
+    { name: "Enlightenment Beads", value: "12000 (120 Sukuna Fingers)", demand: "SSS" },
     { name: "Heavenly Black Shirt", value: "500 (5 Sukuna Fingers)", demand: "D" },
     { name: "Sorcerer Killer Pants", value: "500 (5 Sukuna Fingers)", demand: "D" },
     { name: "Ocean Jacket", value: "200 (2 Sukuna Fingers)", demand: "F" },
@@ -51,8 +51,16 @@ const items = [
     { name: "Perception Blocking Mask", value: "500 (5 Sukuna Fingers)", demand: "B" },
     { name: "Demon Face", value: "200 (2 Sukuna Fingers)", demand: "D" },
     { name: "Soul Face Stitches", value: "400 (4 Sukuna Fingers)", demand: "F" },
-    { name: "Turbo Mask", value: "10000 (100 Sukuna Fingers)", demand: "SSS" },
-    { name: "BloodThirsty Hakama", value: "1000 (10 Sukuna Fingers)", demand: "F" }
+    { name: "Turbo Mask", value: "11500 (115 Sukuna Fingers)", demand: "SSS" },
+    { name: "100 Spins Gamepass", value: "45 (45 Sukuna Fingers)", demand: "B+" },
+    { name: "Heavenly Restriction Gamepass", value: "13500 (135 Sukuna Fingers)", demand: "A-" },
+    { name: "Item Notifier Gamepass", value: "25000 (250 Sukuna Fingers)", demand: "S" },
+    { name: "Innate Slot Gamepass", value: "5200 (52 Sukuna Fingers)", demand: "S" },
+    { name: "Innate Bag Gamepass", value: "10000 (100 Sukuna Fingers)", demand: "S" },
+    { name: "500 Spins Gamepass", value: "20000 (200 Sukuna Fingers)", demand: "A+" },
+    { name: "250 Spins Gamepass", value: "9000 (90 Sukuna Fingers)", demand: "A-" },
+    { name: "50 Spins Gamepass", value: "4000 (40 Sukuna Fingers)", demand: "A" },
+    { name: "BloodThirsty Hakama", value: "500 (5 Sukuna Fingers)", demand: "F" }
 ];
 const modal = document.getElementById('itemModal');
 const overlay = document.getElementById('modalOverlay');
